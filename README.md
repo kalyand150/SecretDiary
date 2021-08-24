@@ -2,18 +2,27 @@
 
 Simple web app to maintain your budget....
 
+Procedure to host the project
+
+> 1. turn on apache, mysql in WAMP or similar softwares.
+
+> 2. visit => localhost/phpmyadmin
+
+> 3. create a database ( remember the name )
+
+> 4. enter the database and import the given sql file ctrlbudget.sql
+
+> 5. open the file => ctrlbudget / includes / connection.php
+
+> 6. fill in the host (localhost or 127.0.0.1), username, password and database name in the respective variables
+
+> 7. place the ctrl_budget folder in the www or htdocs folder
+
+> 8. open the folder in browser ( may be localhost/ctrl_budget/ )
+
 note:- // username and password denotes your phpmyadmin username and password
 // if you don't remember setting password, then enter username="root" and leave the password as it is
 
-How to run the Daily Expense Tracking System  Project
-Download the  zip file
-Extract the file and copy dets folder
-Paste inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/html)
-Open PHPMyAdmin (http://localhost/phpmyadmin)
-Create a database with name detsdb 
-Import detsdb.sql file(given inside the zip package in sql file folder)
-Run the script http://localhost/dets (frontend)
-Credential for user panel  OR you can register your self:
-Username: testuser@gmail.com
-Password: Test @123
+<-------------------------------------------- Thats it enjoy -------------------------------------------------->
 
+for demo click [here](http://ctrl-budget-blazephoenix.herokuapp.com)
